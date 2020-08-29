@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Websoft-Tutorial</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+         <!--Let browser know website is optimized for mobile-->
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <!-- Compiled and minified JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  
+   
+ 
+    <style>
+        *{
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        section{
+            width: 90%;margin: auto;margin-top: 100px;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+    </style> 
+        
+</head>
+<body>
+   <!--Navbar section--> 
+   <div class="navbar-fixed">
+   <nav class="blue lighten-1">
+    <div class="nav-wrapper container">
+      <a href="#!" class="brand-logo">WebSoftTechno</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#index">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="#index">Home</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#contact">Contact Us</a></li>
+  </ul>
+    
+  <!--Slider Section-->
+  <div class="carousel carousel-slider" id="index">
+    <a class="carousel-item" href="#one!"><img src="images/im-1.jpg" class="responsive-img" ></a>
+    <div class="carousel-fixed-item center">
+        <h2 class="white-text">Heading for the carousel</h2>
+        <p class="white-text">The carousel description/caption</p>
+        <a class="waves-effect waves-light btn">Eqnuiry Now<i class="material-icons right">send</i></a>
+    </div>
+    <a class="carousel-item" href="#two!"><img src="images/im-2.jpg" class="responsive-img" ></a>
+    <a class="carousel-item" href="#three!"><img src="images/im-3.jpg"  class="responsive-img" ></a>
+    <a class="carousel-item" href="#four!"><img src="images/im-4.jpg" class="responsive-img" ></a>
+  </div>
+
+<!--Floating Buttons-->
+<div class="fixed-action-btn ">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">mode_edit</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+      <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+      <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+      <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+    </ul>
+  </div>
+
+  <!--About Us -->
+  <section id="about">
+      <h2 class="center">About Us</h2>
+      <div class="row">
+          <div class="col s4 m4 l4 offset-l4 offset-s4 offset-m4"><hr></div>
+          <div class="row">
+              <div class="col m6 s12">
+                  <img src="images/geometry-1023846.jpg"  class="responsive-img" >
+              </div>
+              <div class="col m6 s12">
+                  <h4>Who am i?</h4>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  </p>
+                  <a class="waves-effect waves-light blue btn">Read More<i class="material-icons"> arrow_forward</i></a>
+              </div>
+          </div>
+      </div> 
+  </section>
+
+<!--Our Services-->
+<section id="services">
+    <h2 class="center">Our Services</h2>
+    <div class="row">
+        <div class="col s4 m4 l4 offset-l4 offset-s4 offset-m4"><hr></div>     
+</div>
+
+<div class="row">
+    <div class="col m4 l4 s12">
+        <div class="card hoverable">
+            <div class="card-image">
+              <img src="images/dairy-1986532.jpg" class="responsive-img">
+              <span class="card-title">Card Title</span>
+              <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+                <a href="#"  class="blue-text">This is a link</a>
+              </div>
+          </div>
+  </div>
+  <div class="col m4 l4 s12">
+    <div class="card hoverable">
+        <div class="card-image">
+          <img src="images/geometry-1044090.jpg" class="responsive-img">
+          <span class="card-title">Card Title</span>
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-action">
+            <a href="#"  class="blue-text">This is a link</a>
+          </div>
+      </div> 
+</div>
+<div class="col m4 l4 s12">
+    <div class="card hoverable">
+        <div class="card-image">
+          <img src="images/library-849797.jpg" class="responsive-img">
+          <span class="card-title">Card Title</span>
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-action">
+            <a href="#" class="blue-text">This is a link</a>
+          </div>
+      </div> 
+</div>
+</div>
+
+</section>
+
+<!---Our Gallary-->
+<section id="gallery">
+    <h2 class="center">Our Gallery</h2>
+    <div class="row">
+        <div class="col s4 m4 l4 offset-l4 offset-s4 offset-m4"><hr></div>     
+    </div>
+    <div class="row">
+        <div class="col m4 l4 s12">
+            <img src="images/im-1.jpg " class="responsive-img materialboxed">
+        </div>
+
+        <div class="col m4 l4 s12">
+            <img src="images/im-2.jpg" class="responsive-img materialboxed">
+        </div>
+
+        <div class="col m4 l4 s12">
+            <img src="images/im-3.jpg" class="responsive-img materialboxed">
+        </div>
+        
+    </div>
+    <div class="row">
+        <div class="col m4 l4 s12">
+            <img src="images/im-1.jpg " class="responsive-img materialboxed">
+        </div>
+
+        <div class="col m4 l4 s12">
+            <img src="images/im-2.jpg" class="responsive-img materialboxed">
+        </div>
+
+        <div class="col m4 l4 s12">
+            <img src="images/im-3.jpg" class="responsive-img materialboxed">
+        </div>
+        
+    </div>
+    
+</section>  
+
+<!--Contact Us-->
+<section id="contact">
+    <h2 class="center">Contact Us</h2>
+    <div class="row">
+        <div class="col s4 m4 l4 offset-l4 offset-s4 offset-m4"><hr></div>     
+    </div>
+    <div class="row">
+        <div class="col s12 m6 offset-m3 offset-l3" >
+            <div class="row">
+                <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                      <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                      <input id="last_name" type="text" class="validate">
+                      <label for="last_name">Last Name</label>
+                    </div>
+                  </div>
+                  
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input  type="text" id="input_text" class="validate" data-length="10" >
+                      <label for="input_text">Mobile</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input id="email" type="email" class="validate">
+                      <label for="email">Email</label>
+                    </div>
+                  </div>
+                 
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">Message</label>
+                    </div>
+                  </div>
+                  <button class="btn waves-effect waves-light" type="submit" onclick="M.toast({html: 'Your Form has been Submitted'})">Submit
+                    <i class="material-icons right">send</i>
+                  </button>
+                </form>
+              </div>
+        </div>
+    </div>
+
+</section>  
+
+<!--Footer-->
+<footer class="page-footer" style="padding-top: 0;">
+    <div class="footer-copyright">
+      <div class="container">
+      © 2020 Copyright WebsoftTechno
+      <a class="grey-text text-lighten-4 right" href="#!"></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+      $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+
+  $('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators:true
+  });
+
+  
+  $(document).ready(function(){
+    $('.fixed-action-btn').floatingActionButton();
+  });
+
+
+  $(document).ready(function(){
+    $('.materialboxed').materialbox();
+  });
+
+  $('input#input_text').characterCounter();
+  </script>
+      
+</body>
+</html>
